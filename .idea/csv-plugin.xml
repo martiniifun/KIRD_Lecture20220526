@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\4_분석심화#서울시기온데이터\seoul.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
