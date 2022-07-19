@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\7_회귀실습-공유자전거 수요 예측\train.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
