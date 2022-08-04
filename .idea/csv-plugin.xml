@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\9_딥러닝으로 들어가기 전에\pima-indians-diabetes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
