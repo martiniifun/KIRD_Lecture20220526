@@ -1,0 +1,6 @@
+kobart @ git+https://github.com/SKT-AI/KoBART@30c5eb7b593828d6ec2d767eeedb2f2ed02c5c2a
+transformers==4.3.3
+tokenizers==0.10.3
+pytorch-lightning==1.2.1
+torch==1.7.1
+streamlit==1.10.0
