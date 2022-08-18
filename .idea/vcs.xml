@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/11_텍스트관련딥러닝/0_객체인식실습(미완성)/tensorflow/models" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/11_텍스트관련딥러닝/0_객체인식실습/tensorflow/models" vcs="Git" />
   </component>
 </project>
