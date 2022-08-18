@@ -25,3 +25,9 @@ with st.echo(code_location='below'):
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
+
+
+# 1. 깃을 설치해서 커밋
+# 2. 푸쉬(깃헙 계정이 있어야 함, 레포지토리 생성)
+# 3. 스트림릿에 레포 주소 및 .py 파일 위치 입력
+# 4. requirements.txt

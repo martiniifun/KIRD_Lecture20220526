@@ -1,8 +1,3 @@
-"""
-SK텔레콤의 코바트KoBart 모델
-유사한 국내 모델로는 네이버의 하이퍼클로바와
-그 유명한 카카오브레인의 KoGPT3 등이 있다.
-"""
 from transformers import PreTrainedTokenizerFast
 from tokenizers import SentencePieceBPETokenizer
 from transformers import BartForConditionalGeneration
@@ -48,10 +43,9 @@ if text:
     st.markdown("## Predict Summary")
     with st.spinner('processing..'):
         raw_input_ids = tokenizer.encode(text)
-        input_ids = [tokenizer.bos_token_id] + \
-            raw_input_ids + [tokenizer.eos_token_id]
+        input_ids = [tokenizer.bos_token_id] + raw_input_ids + [tokenizer.eos_token_id]
         summary_ids = model.generate(torch.tensor([input_ids]),
-                                     max_length=512,
+                                     max_length=256,
                                      early_stopping=True,
                                      repetition_penalty=2.0)
         summ = tokenizer.decode(summary_ids.squeeze().tolist(), skip_special_tokens=True)
