@@ -1,3 +1,5 @@
+# !pip install selenium chromedriver_autoinstaller
+
 from time import sleep
 
 from selenium import webdriver
@@ -15,6 +17,7 @@ prefs = {'profile.default_content_setting_values.automatic_downloads': 1}
 chrome_options.add_experimental_option("prefs", prefs)
 driver_path = chromedriver_autoinstaller.install()
 driver = webdriver.Chrome(options=chrome_options)
+
 # 과기정통부 보도자료 페이지 접속
 driver.get("https://www.msit.go.kr/bbs/list.do?sCode=user&mPid=112&mId=113")
 
