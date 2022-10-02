@@ -20,7 +20,7 @@ def summ(text, length=3, model="news", tone=3):
     # headers
     headers = {
         "X-NCP-APIGW-API-KEY-ID": "96d1m5ylby",
-        "X-NCP-APIGW-API-KEY": "Y4IskyZ8EDyuXA10HXrY05j9s0XA49q7grT9X6bR",
+        "X-NCP-APIGW-API-KEY": "비밀",
         "Content-Type": "application/json"
     }
 
